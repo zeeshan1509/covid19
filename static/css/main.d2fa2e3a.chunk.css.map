@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/index.css","webpack://src/components/CovidMap.css"],"names":[],"mappings":"AAAA,KACE,QAEF,CCHA,mBACI,wBACJ","file":"main.d2fa2e3a.chunk.css","sourcesContent":["body {\n  margin: 0;\n \n}\n/* .leaflet-container{\n  width: 100%;\n  height: 100vh;\n} */",".leaflet-container{\r\n    background-color: rgb(45, 51, 47);\r\n}"]}
