@@ -21,8 +21,8 @@ const Legend = ({legendItems}) => {
                     justifyContent: "center", // horiztontal
                     color: item.textColor != null ? item.textColor : "black",
                     fontWeight: "bolder",
-                    fontSize: "0.8em",
-                    height: "20vh",
+                    fontSize: "1em",
+                    height: "10vh",
                   }}>
                     <span>{item.title}</span> 
                 </div>
