@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Legend = ({legendItems}) => {
-    console.log(legendItems)
+   
     return ( 
         <div style={{
             display: "flex",
@@ -13,11 +13,15 @@ const Legend = ({legendItems}) => {
                     backgroundColor: item.color,
                     flex: 1,
                     display: "flex",
+                    padding: 0,
+                    margin: "auto",
+                    overflow: "hidden",
+                    textAlign: "center",
                     alignItems: "center", // vertical
                     justifyContent: "center", // horiztontal
                     color: item.textColor != null ? item.textColor : "black",
                     fontWeight: "bolder",
-                    fontSize: "1em",
+                    fontSize: "0.8em",
                     height: "10vh",
                   }}>
                     <span>{item.title}</span> 
